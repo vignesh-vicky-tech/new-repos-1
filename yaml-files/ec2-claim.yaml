@@ -9,5 +9,7 @@ spec:
     ami: "ami-06aa3f7caf3a30282"
     instanceType: "t2.small"
     keyName: "repo-final-key"
+    tags:
+      Name: "myapp"
   compositionRef:
     name: ec2-instance
